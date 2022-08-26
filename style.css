@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(34, 34, 34);
+    color: bisque;
+    height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: rgb(109, 0, 109);
+  }
+  
+::selection {
+    color: white;
+    background: rgb(109, 0, 109);
+  }
+
+#name {
+    display: inline;
+    font-size: 10rem;
+    font-style: italic;
+    z-index: -10;
+    margin: 0%;
+    border-left: 2px solid rgb(109, 0, 109);
+}
+
+#about {
+    font-size: 5rem;
+    margin: 0%;
+    border-left: 2px solid rgb(109, 0, 109);
+}
+
+#location {
+    display: block;
+    margin: 0%;
+    font-size: 5rem;
+    border-left: 2px solid rgb(109, 0, 109);
+}
+
+ /* unvisited link */
+ a:link {
+    color: hsl(195, 30%, 42%);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: lightgreen;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: lightblue;
+  }
+  
+  /* selected link */
+  a:active {
+    color: lightgray;
+  } 
